@@ -1,0 +1,199 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_STUB_P2PWM          ICON                    "stub_p2pwm.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "Help"
+    BEGIN
+        MENUITEM "StartUp",                     ID_MENU_STARTUP
+        MENUITEM "Shutdown",                    ID_MENU_SHUTDOWN
+        MENUITEM "SignIn",                      ID_MENU_SIGNIN
+        MENUITEM "SignOut",                     ID_MENU_SIGNOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Register Event",              ID_MENU_REGEVENT
+        MENUITEM SEPARATOR
+        MENUITEM "SetObject",                   ID_MENU_SETOBJECT
+        MENUITEM "DeleteObject",                ID_MENU_DELETEOBJECT
+        MENUITEM SEPARATOR
+        MENUITEM "EnumPNM",                     ID_MENU_ENUMPNM
+        MENUITEM "EnumObject",                  ID_MENU_ENUMOBJECT
+        MENUITEM SEPARATOR
+        MENUITEM "Version Info",                IDM_HELP_ABOUT
+        MENUITEM SEPARATOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_STUB_P2PWM ACCELERATORS 
+BEGIN
+    "A",            IDM_HELP_ABOUT,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDM_OK,                 VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 156, 129
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "バージョン情報 stub_p2pwm"
+FONT 9, "MS UI Gothic"
+BEGIN
+    ICON            IDI_STUB_P2PWM,IDC_STATIC_1,12,12,21,20,SS_REALSIZEIMAGE
+    LTEXT           "stub_p2pwm Version 1.0",IDC_STATIC_2,12,36,70,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC_3,12,48,66,8
+END
+
+IDD_ABOUTBOX_WIDE DIALOG  0, 0, 210, 129
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "バージョン情報 stub_p2pwm"
+FONT 9, "MS UI Gothic"
+BEGIN
+    ICON            IDI_STUB_P2PWM,IDC_STATIC_1,12,12,21,20,SS_REALSIZEIMAGE
+    LTEXT           "stub_p2pwm Version 1.0",IDC_STATIC_2,48,12,66,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC_3,48,24,66,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_ABOUTBOX_WIDE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#include ""stub_p2pwmppc.rc2""  // Microsoft Visual C++ 以外で編集されたリソース\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "stub_p2pwm"
+    IDC_STUB_P2PWM          "STUB_P2PWM"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "OK"
+    IDS_HELP                "ヘルプ"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE 17, 1
+#pragma code_page(932)
+#include "stub_p2pwmppc.rc2"  // Microsoft Visual C++ 以外で編集されたリソース
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

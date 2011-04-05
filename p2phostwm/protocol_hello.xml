@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Envelope>
+  <Body>
+    <Hello>
+      <Types>a4c1fbe4-6d30-46c9-8bba-b8663d615706</Types>
+      <Version>1.0.0.0</Version>
+      <DeviceId>1241fbe4-6d30-46c9-8bba-b8663d615706</DeviceId>
+      <UserName>sousuke</UserName>
+      <Object id="1241fbe4-6d30-46c9-8bba-b8663d615706" seq="1"/>
+      <Object id="6215fb93-1d93-4321-b4f2-ef37f076f4ab" seq="1"/>
+      <Object id="062cd8cf-1206-44e0-a5be-4e19716cb378" seq="1"/>      
+    </Hello>
+  </Body>
+</Envelope>

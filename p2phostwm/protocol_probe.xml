@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Envelope>
+  <Body>
+    <Probe>
+      <Types>a4c1fbe4-6d30-46c9-8bba-b8663d615706</Types>
+      <Version>1.0.0.0</Version>
+    </Probe>
+  </Body>
+</Envelope>
+

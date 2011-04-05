@@ -1,0 +1,193 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "SignIn",                      ID_MENU_SIGNIN
+        MENUITEM "SignOut",                     ID_MENU_SIGNOUT, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Property",                    ID_MENU_PROPERTY
+        MENUITEM "About",                       ID_MENU_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_MENU_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "FileDescription", "p2phostw アプリケーション"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "p2phostw"
+            VALUE "LegalCopyright", "Copyright (C) 2007 S. Hirayama"
+            VALUE "OriginalFilename", "p2phostw.exe"
+            VALUE "ProductName", " p2phostw アプリケーション"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOT_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 144
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_PROPERTY_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 45
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOT_DIALOG DIALOG  10, 10, 145, 68
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,91,51,50,14
+    LTEXT           "Copyright (c) 2007 ",IDC_STATIC,11,25,72,12,SS_CENTERIMAGE
+    LTEXT           "S.Hirayama, All right reserved.",IDC_STATIC,29,37,99,12,SS_CENTERIMAGE
+    LTEXT           "p2phostwm [Ver. 0.0.0.1]",IDC_STATIC,8,8,88,12,SS_CENTERIMAGE
+END
+
+IDD_PROPERTY_DIALOG DIALOG  10, 10, 139, 46
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "Property"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,84,28,50,14
+    LTEXT           "Input NickName and Tag ...",IDC_STATIC,6,5,89,8
+    LTEXT           "always nickname is device id..??",IDC_STATIC,6,16,103,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAINICON            ICON                    "group.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "p2phostwm"
+    IDC_P2PHOSTWM           "P2PHOSTWM"
+    IDS_PROPERTY_TITLE      "Property"
+    IDC_WMPROPERTY          "WMPROPERTY"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
